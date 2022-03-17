@@ -1,0 +1,28 @@
+{
+    "title": "Twitter scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Twitter URL you want to scrape",
+            "description": "This lets you tell the scraper where to start. You can enter Twitter URLs one by one. You can also link to or upload a text file with a list of URLs.",
+            "prefill": [ { "url": "https://twitter.com/apify" } ],
+            "type": "array",
+            "editor": "requestListSources"
+        },
+        "tweetsDesired": {
+            "title": "Set the maximum number of tweets",
+            "type": "integer",
+            "description": "This value lets you set the maximum number of tweets to retrieve. Twitter has a default limit of around 3,200 tweets. Check the README for workarounds.",
+            "maximum": 3300,
+            "prefill": 100
+        },
+        "addUserInfo": {
+            "title": "Add user information",
+            "description": "Appends an object to each tweet containing the user information. You can decrease the size of your dataset by turning this off.",
+            "default": true,
+            "type": "boolean",
+            "editor": "checkbox"
+        }
+    }
+}

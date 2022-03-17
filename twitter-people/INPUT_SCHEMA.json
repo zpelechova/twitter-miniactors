@@ -1,0 +1,15 @@
+{
+  "title": "Twitter people scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchTerms": {
+      "title": "Key word(s) to search for Twitter users",
+      "type": "array",
+      "prefill": ["Minecraft"],
+      "editor": "stringList",
+      "description": "The scraper will find and extract tweets that mention your search terms."
+    }
+  },
+  "required": ["searchTerms"]
+}

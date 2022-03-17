@@ -1,0 +1,29 @@
+{
+  "title": "Twitter video scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchTerms": {
+      "title": "Search terms you want to scrape",
+      "type": "array",
+      "prefill": ["love"],
+      "editor": "stringList",
+      "description": "The scraper will find and extract tweets that mention your search terms."
+    },
+    "tweetsDesired": {
+      "title": "Maximum number of tweets",
+      "type": "integer",
+      "description": "This value lets you set the maximum number of tweets to retrieve. Twitter has a default limit of around 3,200 tweets, but it has been increasingly difficult to get to that number.",
+      "maximum": 3300,
+      "prefill": 100
+    },
+    "addUserInfo": {
+      "title": "Add user information",
+      "description": "Appends an object to each tweet containing the user information. You can decrease the size of your dataset by turning this off. Personal data is protected by GDPR in the European Union and by other regulations around the world. You should not scrape personal data unless you have a legitimate reason to do so.",
+      "default": true,
+      "type": "boolean",
+      "editor": "checkbox"
+    }
+  },
+  "required": ["searchTerms"]
+}
