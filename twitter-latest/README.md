@@ -32,7 +32,7 @@ It's easy to scrape [Twitter.com](https://twitter.com/home) with Twitter latest 
 1. Click on Try for free.
 2. Fill in the URL of the profile you want to scrape into the Search term on the web.
 3. Click on Start.
-4. When Twitter URL scraper has finished, preview or download your data from the Dataset tab.
+4. When Twitter latest scraper has finished, preview or download your data from the Dataset tab.
 
 ## How much will it cost to scrape Twitter.com?
 
