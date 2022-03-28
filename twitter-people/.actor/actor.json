@@ -17,9 +17,11 @@
             "fields": [
               "user",
               "profile_image_url_https",
-              "full_text",
-              "reply_count",
-              "retweet_count",
+              "location",
+              "description",
+              "statuses_count",
+              "followers_count",
+              "friends_count",
               "favorite_count",
               "url",
               "created_at"
@@ -39,34 +41,44 @@
                 "field": "user.name"
               },
               {
-                "label": "Tweet",
+                "label": "Location",
                 "format": "text",
-                "field": "full_text"
+                "field": "user.location"
               },
               {
-                "label": "Replies",
-                "format": "number",
-                "field": "reply_count"
+                "label": "Description",
+                "format": "text",
+                "field": "userr.description"
               },
               {
-                "label": "Retweets",
+                "label": "Tweets",
                 "format": "number",
-                "field": "retweet_count"
+                "field": "user.statuses_count"
               },
               {
-                "label": "Favourites",
+                "label": "Folowers",
                 "format": "number",
-                "field": "favorite_count"
+                "field": "user.followers_count"
+              },
+              {
+                "label": "Friends",
+                "format": "number",
+                "field": "user.friends_count"
+              },
+              {
+                "label": "Favorite",
+                "format": "number",
+                "field": "fuser.favorite_count"
               },
               {
                 "label": "URL",
                 "format": "link",
-                "field": "url"
+                "field": "user.url"
               },
               {
                 "label": "Date",
                 "format": "date",
-                "field": "created_at"
+                "field": "user.created_at"
               }
             ]
           }
