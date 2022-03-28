@@ -48,7 +48,7 @@
               {
                 "label": "Description",
                 "format": "text",
-                "field": "userr.description"
+                "field": "user.description"
               },
               {
                 "label": "Tweets",
@@ -68,7 +68,7 @@
               {
                 "label": "Favorite",
                 "format": "number",
-                "field": "fuser.favorite_count"
+                "field": "user.favorite_count"
               },
               {
                 "label": "URL",
