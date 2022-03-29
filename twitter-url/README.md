@@ -7,15 +7,15 @@ Twitter URL scraper can scrape:
 - Statistics for each tweet: favorites, replies, and retweets for each tweet
 
 ## Why scrape Twitter.com?
-Twitter.com has 217 million active daily users and is a great source of data for [marketing and research based on social media.](https://apify.com/industries/marketing-and-media).
+Twitter.com has 217 million active daily users and is a great source of data for [marketing and research based on social media](https://apify.com/industries/marketing-and-media).
 
 Here are just some of the ways you could use that data:
 - Track discussions about your brand, products, country, or city.
-- Monitor your competitors and see how popular they really are, and how you can get a competitive edge.
-- Keep an eye on new trends, attitudes, and fashions as they emerge.
+- Monitor your competitors and their popularity, and get a competitive edge.
+- Keep an eye on new trends and fashions as they emerge.
 - Use the data to train AI models or for academic research.
 - Track sentiment to make sure your investments are protected.
-- Fight fake news by understanding the pattern of how misinformation spreads.
+- Fight fake news by identifying the spreading pattern of misinformation.
 - Explore discussions about travel destinations, services, amenities, and take advantage of local knowledge.
 - Analyze consumer habits and develop new products or target underdeveloped niches.
 
@@ -26,7 +26,7 @@ It's easy to scrape [Twitter.com](https://twitter.com/home) with Twitter URL scr
 
 1. Click on Try for free.
 2. Copy a URL from Twitter.com which you want to scrape and paste it to the actor.
-3. Click on Run.
+3. Click on Start.
 4. When Twitter URL scraper has finished, preview or download your data from the Dataset tab.
 
 ## Supported Twitter URL types
@@ -105,7 +105,8 @@ Each item in the dataset will contain a separate tweet that follows this format:
 ```
 
 ## Need a more advanced Twitter scraper?
-If you need more detailed data from Twitter or need to use different input, try our [Twitter Scraper](https://apify.com/vdrmota/twitter-scraper). It's a little more complicated to set up but you can customize it as you want.
+If you need more detailed data from Twitter or need to use different input, try our [Twitter Scraper](https://apify.com/vdrmota/twitter-scraper). It's a little more complicated to set up, but you can customize it as you want.
+
 You can read our step-by-step tutorial on [how to scrape Twitter](https://blog.apify.com/how-to-scrape-tweets-and-more-on-twitter-59330e6fb522/) if you need some guidance on how to run the scraper. Or you can always email support@apify.com for help.
 
 ## Custom Twitter scraping solution
