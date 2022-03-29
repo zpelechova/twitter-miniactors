@@ -1,8 +1,8 @@
-## What does Twitter URL scraper do?
+## What does Twitter history scraper do?
 
-Twitter URL scraper will enable you to get more data from [Twitter.com](https://twitter.com/home) than the official Twitter.com API.
+Twitter history scraper will enable you to get more data from [Twitter.com](https://twitter.com/home) than the official Twitter.com API.
 
-Twitter URL scraper can scrape:
+Twitter history scraper can scrape:
 
 - User information, such as name, Twitter handle (username), location, follower/following count, profile URL/image/banner, date of creation
 - List of tweets, retweets, and replies from profiles
@@ -15,11 +15,11 @@ Twitter.com has 217 million active daily users and is a great source of data for
 Here are just some of the ways you could use that data:
 
 - Track discussions about your brand, products, country, or city.
-- Monitor your competitors and see how popular they really are, and how you can get a competitive edge.
-- Keep an eye on new trends, attitudes, and fashions as they emerge.
+- Monitor your competitors and their popularity, and get a competitive edge.
+- Keep an eye on new trends and fashions as they emerge.
 - Use the data to train AI models or for academic research.
 - Track sentiment to make sure your investments are protected.
-- Fight fake news by understanding the pattern of how misinformation spreads.
+- Fight fake news by identifying the spreading pattern of misinformation.
 - Explore discussions about travel destinations, services, amenities, and take advantage of local knowledge.
 - Analyze consumer habits and develop new products or target underdeveloped niches.
 
@@ -30,13 +30,13 @@ If you would like more inspiration on how scraping Twitter.com could help your b
 It's easy to scrape [Twitter.com](https://twitter.com/home) with Twitter URL scraper. Just follow these few steps and you'll get your data in a few minutes.
 
 1. Click on Try for free.
-2. Fill in what you want to scrape into the Search term on the web.
+2. Fill in what you want to scrape into the Search term on the web. You will need to specify a Twitter username and starting and ending publication dates for the tweets.
 3. Click on Start.
-4. When Twitter URL scraper has finished, preview or download your data from the Dataset tab.
+4. When Twitter history scraper has finished, preview or download your data from the Dataset tab.
 
 ## How much will it cost to scrape Twitter.com?
 
-Apify gives you with \$5 free usage credits every month on the Apify Free plan. You can get 20,000 results per month from Twitter URL scraper for that, so those 20k results will be completely free!
+Apify gives you with \$5 free usage credits every month on the Apify Free plan. You can get 20,000 results per month from Twitter history scraper for that, so those 20k results will be completely free!
 
 But if you need to get more data regularly from Twitter.com, you should grab an Apify subscription. We recommend our $49/month Personal plan - you can get up to 200,000 every month with the $49 monthly plan!
 
