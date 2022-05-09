@@ -7,7 +7,7 @@ Apify.main(async () => {
         ...input,
         searchMode: "user",
         mode: "own",
-        tweetsDesired: 0,
+        tweetsDesired: 1,
         addUserInfo: true,
         maxIdleTimeoutSecs: 60,
     });
