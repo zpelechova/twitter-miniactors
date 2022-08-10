@@ -1,9 +1,9 @@
-import Apify from 'apify';
+import { Actor } from 'apify';
 
-Apify.main(async () => {
-    const input = await Apify.getInput();
+Actor.main(async () => {
+    const input = await Actor.getInput();
         
-    await Apify.metamorph('vdrmota/twitter-scraper', {
+    await Actor.metamorph('vdrmota/twitter-scraper', {
         ...input,
         mode: "replies",
         maxIdleTimeoutSecs: 60,
