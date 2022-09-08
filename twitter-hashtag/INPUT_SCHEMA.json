@@ -10,22 +10,6 @@
       "type": "array",
       "editor": "stringList"
     },
-    "newerThan": {
-      "title": "Tweets newer than",
-      "description": "Scrape tweets newer than this date.",
-      "pattern": "(\\d{4}-\\d{2}-\\d{2}|(\\d+)\\s?\\S+)",
-      "type": "string",
-      "editor": "textfield",
-      "prefill": "2022-02-24"
-    },
-    "olderThan": {
-      "title": "Tweets older than",
-      "description": "Scrape tweets older then this date.",
-      "type": "string",
-      "pattern": "(\\d{4}-\\d{2}-\\d{2}|(\\d+)\\s?\\S+)",
-      "editor": "textfield",
-      "prefill": "2022-03-08"
-    },
     "tweetsDesired": {
       "title": "Maximum number of tweets",
       "type": "integer",
