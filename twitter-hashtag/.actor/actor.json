@@ -22,7 +22,8 @@
               "retweet_count",
               "favorite_count",
               "url",
-              "created_at"
+              "created_at",
+              "hashtags"
             ]
           },
           "display": {
@@ -42,6 +43,11 @@
                 "label": "Tweet",
                 "format": "text",
                 "field": "full_text"
+              },
+              {
+                "label": "Hashtag(s)",
+                "format": "text",
+                "field": "hashtags"
               },
               {
                 "label": "Replies",
