@@ -1,12 +1,12 @@
-## What does Twitter History Hashtag scraper do?
+## What does Twitter Hashtag Scraper do?
 
-Twitter History Hashtag scraper will enable you to get more data from [Twitter.com](https://twitter.com/home) than the official Twitter.com API.
+Twitter Hashtag Scraper will enable you to get more data from [Twitter.com](https://twitter.com/home) than the official Twitter.com API.
 
-Twitter Twitter History Hashtag scraper scrapes tweets with your desired hashtag(s) from a given period of time. Namely it scrapes:
+Twitter Twitter Hashtag Scraper scrapes tweets with your desired hashtag(s). Namely it scrapes:
 
-- User information, such as name, Twitter handle (username), location, follower/following count, profile URL/image/banner, date of creation
-- List of tweets, retweets, and replies from profiles
-- Statistics for each tweet: favorites, replies, and retweets for each tweet
+- User information, such as name, id, location, followers count, profile URL/image/banner
+- List of tweets with full texts
+- Statistics for each tweet: favorites, replies, and retweets counts
 
 ## Why scrape Twitter.com?
 
@@ -27,12 +27,12 @@ If you would like more inspiration on how scraping Twitter.com could help your b
 
 ## How to scrape Twitter.com
 
-It's easy to scrape [Twitter.com](https://twitter.com/home) with Twitter URL scraper. Just follow these few steps and you'll get your data in a few minutes.
+It's easy to scrape [Twitter.com](https://twitter.com/home) with Twitter Hashtag Scraper. Just follow these few steps and you'll get your data in a few minutes.
 
 1. Click on Try for free.
-2. Fill in the hashtag you want to scrape and dates
+2. Fill in the hashtag(s) you want to scrape
 3. Click on Start.
-4. When Twitter URL scraper has finished, preview or download your data from the Dataset tab.
+4. When Twitter Hashtag Scraper has finished, preview or download your data from the Dataset tab.
 
 ## How much will it cost to scrape Twitter.com?
 
